@@ -173,24 +173,45 @@ a{
     text-align: center;
     margin: 40px;
 }
+#box1{
+    margin-left: 100%;
+    display: flex;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    padding-top : 20px; 
+    justify-content: space-between;
+    padding-right: 15px;
+}
 #AffordablePackages{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding:100px 0px;
     text-align: center;
-    left: 1000px;
+}
+#standard h5{
+    background-color: #fff;
+    color: #189a46;
+    border-radius: 10%;
+}
+.box1-3{
+    margin: 50px;
+    width: 10px;
 }
 .FreePackage{
-    padding: 20px 0px;
-    background-color: white;
-    border: 20px;
     padding: 0px;
+    background-color: white;
     height: 500px;
     width: 200px;
-    text-align: center;
-    align-items: center;
-    margin: 0px;
-    left: 100px;
+}
+.box1-3 .FreePackage{
+    padding: auto;
+}
+.FreePackage #standard{
+    position:relative;
+  margin-top:-50px;
+  margin-bottom: -50px;
+  width:300px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.1);
 }
 .FreePackage button{
     background-color: green;
@@ -201,6 +222,7 @@ a{
 #Standard{
     background-color: green;
     color: white;
+    padding: 50px;
 }
 #standard{
     box-shadow: 5px 10px 18px #888888;
@@ -215,6 +237,7 @@ a{
 }
 #video2{
     text-align: center;
+    line-height: 1.8;
 }
 #comment{
     display: grid;
@@ -246,10 +269,10 @@ a{
     padding: 20px;
 }
 .email input{
-    border-radius: 12%;
+    border-radius: 5%;
     margin: 20px;
     width: 300px;
-    height: 30px;
+    height: 50px;
 }
 .email button{
     background-color: green;
@@ -258,15 +281,76 @@ a{
     height: 50px;
     border-radius: 12%;
 }
-#table1{
+#table3{
     background-color: black;
     color: #fff;
     padding: 50px 50px;
     margin: 0px;
     padding-left: 500px;
+    justify-content: space-between;
 }
 #table{
-    align-items: center;}
-.table{
-    margin-right: 100px;
+    align-items: center;
 }
+#table3 .table{
+    margin-right: 100px;
+    margin: 100px;
+}
+#final-bottom{
+    margin-top:50px;
+    width:100%;
+    padding-top:5%;
+    padding-left:5%;
+    padding-right:5%;
+    background-color: black;
+    color:white;
+  }
+  
+  .final-main{
+    display:flex;
+    gap:180px;
+    justify-content: center;
+    margin-bottom:50px;
+  }
+  
+  .final-main-content{
+    line-height: 2.5;
+  }
+  
+  .opacity{
+    color: grey;
+  }
+  
+  .hover:hover{
+    text-decoration:underline;
+    color: white;
+  }
+  
+  .bottom-end{
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  .hover2{
+    color:red;
+  }
+  
+  .hover2:hover{
+    color:red;
+    text-decoration:underline ;
+  }
+  .final-end{
+    text-align: center;
+  }
+  #return{
+    position:fixed;
+    width:50px;
+    height:50px;
+    background-color: #189a46;
+    border-radius: 50%;
+    right:20px;
+    bottom:20px;
+    color:white;
+    padding-top:18px;
+    padding-left:22px;
+  }
